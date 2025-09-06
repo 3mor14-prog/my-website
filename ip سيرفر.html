@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>3mor on top</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="top-title">3mor on top™</div>
+
+  <div class="main-title">3mor CFX Finder</div>
+
+  <div class="search-box">
+    <input type="text" id="cfxInput" placeholder="حط cfx.re">
+    <button onclick="fetchServerInfo()">بحث</button>
+  </div>
+
+  <div id="serverInfo" class="info-box" style="display: none;"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
